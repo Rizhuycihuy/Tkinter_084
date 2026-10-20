@@ -30,3 +30,18 @@ pilihan.set("Teknologi Informasi")
 menu_jurusan = tk.OptionMenu(top, pilihan, *daftar_jurusan)
 menu_jurusan.config(width=22, bg="white", fg="black")
 menu_jurusan.pack(pady=5)
+
+def hasil_prediksi():
+    hasil = tk.Toplevel(top)
+    hasil.title("Hasil Prediksi")
+    hasil.geometry("300x140")
+    hasil.configure(bg="#25255c")
+
+    label_hasil = tk.Label(
+        hasil,
+        text="Prediksi Prodi: Teknologi Informasi",
+        font=("Arial", 12, "bold"),
+        bg="#25255c",
+        fg="cyan"
+    )
+    label_hasil.pack(expand=True)
