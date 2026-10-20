@@ -18,8 +18,3 @@ for i in range(10):
     entry = tk.Entry(frame, width=12)
     entry.grid(row=i, column=1, padx=5, pady=4)
     nilai.append(entry)
-
-jurusan = tk.Label(top, text="Masukkan Jurusan Anda:", bg="#25255c", fg="white")
-jurusan.pack(pady=(15, 3))
-
-daftar_jurusan = ["Teknologi Informasi", "Teknik Mesin", "Teknik Sipil", "Teknik Elektro"]
