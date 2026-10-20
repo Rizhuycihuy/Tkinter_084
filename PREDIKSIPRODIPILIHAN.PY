@@ -48,3 +48,5 @@ def hasil_prediksi():
     
 button = tk.Button(top, text="Hasil Prediksi", command=hasil_prediksi)
 button.pack(pady=20)
+
+top.mainloop()
