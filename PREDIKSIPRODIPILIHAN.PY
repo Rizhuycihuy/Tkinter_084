@@ -21,3 +21,5 @@ for i in range(10):
 
 jurusan = tk.Label(top, text="Masukkan Jurusan Anda:", bg="#25255c", fg="white")
 jurusan.pack(pady=(15, 3))
+
+daftar_jurusan = ["Teknologi Informasi", "Teknik Mesin", "Teknik Sipil", "Teknik Elektro"]
