@@ -45,3 +45,6 @@ def hasil_prediksi():
         fg="cyan"
     )
     label_hasil.pack(expand=True)
+    
+button = tk.Button(top, text="Hasil Prediksi", command=hasil_prediksi)
+button.pack(pady=20)
